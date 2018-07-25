@@ -30,6 +30,14 @@
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
     "version": "v2.0.0"
   },
+  "aff-reattempt": {
+    "dependencies": [
+      "aff",
+      "refs"
+    ],
+    "repo": "https://github.com/slamdata/purescript-aff-reattempt.git",
+    "version": "v5.0.0"
+  },
   "aff-retry": {
     "dependencies": [
       "aff",
@@ -191,14 +199,6 @@
     ],
     "repo": "https://github.com/sharkdp/purescript-bigints.git",
     "version": "v4.0.0"
-  },
-  "bulma": {
-    "dependencies": [
-      "prelude",
-      "generics-rep"
-    ],
-    "repo": "https://github.com/sectore/purescript-bulma.git",
-    "version": "v2.0.0"
   },
   "canvas": {
     "dependencies": [
@@ -1748,6 +1748,17 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-dom.git",
     "version": "v1.0.0"
+  },
+  "webdriver": {
+     "dependencies": [
+        "aff",
+        "aff-reattempt",
+        "aff-promise",
+        "web-html",
+        "web-uievents"
+     ],
+     "repo": "https://github.com/slamdata/purescript-webdriver.git",
+     "version": "v6.0.0"
   },
   "web-events": {
     "dependencies": [
