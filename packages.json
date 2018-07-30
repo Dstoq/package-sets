@@ -970,7 +970,7 @@
       "prelude"
     ],
     "repo": "https://github.com/Thimoteus/purescript-node-os.git",
-    "version": "v2.1.0"
+    "version": "v2.2.0"
   },
   "node-path": {
     "dependencies": [
