@@ -969,7 +969,7 @@
       "ordered-collections",
       "prelude"
     ],
-    "repo": "https://github.com/Thimoteus/purescript-node-os.git",
+    "repo": "https://github.com/dstoq/purescript-node-os.git",
     "version": "v2.2.0"
   },
   "node-path": {
