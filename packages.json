@@ -966,7 +966,7 @@
   "node-os": {
     "dependencies": [
       "datetime",
-      "ordered-collections",
+      "foreign-object",
       "prelude"
     ],
     "repo": "https://github.com/dstoq/purescript-node-os.git",
