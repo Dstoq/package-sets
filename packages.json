@@ -41,11 +41,11 @@
   "aff-retry": {
     "dependencies": [
       "aff",
-      "prelude",
       "datetime",
+      "exceptions",
+      "prelude",
       "random",
-      "transformers",
-      "exceptions"
+      "transformers"
     ],
     "repo": "https://github.com/Unisay/purescript-aff-retry.git",
     "version": "v1.2.1"
@@ -963,6 +963,15 @@
     "repo": "https://github.com/purescript-node/purescript-node-http.git",
     "version": "v5.0.0"
   },
+  "node-os": {
+    "dependencies": [
+      "datetime",
+      "foreign-object",
+      "prelude"
+    ],
+    "repo": "https://github.com/dstoq/purescript-node-os.git",
+    "version": "v2.4.0"
+  },
   "node-path": {
     "dependencies": [
       "effect"
@@ -1709,6 +1718,20 @@
     "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference",
     "version": "v3.0.1"
   },
+  "uri": {
+    "dependencies": [
+      "arrays",
+      "generics-rep",
+      "globals",
+      "integers",
+      "parsing",
+      "profunctor-lenses",
+      "these",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/slamdata/purescript-uri.git",
+    "version": "v6.0.0"
+  },
   "validation": {
     "dependencies": [
       "bifunctors",
@@ -1748,17 +1771,6 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-dom.git",
     "version": "v1.0.0"
-  },
-  "webdriver": {
-     "dependencies": [
-        "aff",
-        "aff-reattempt",
-        "aff-promise",
-        "web-html",
-        "web-uievents"
-     ],
-     "repo": "https://github.com/slamdata/purescript-webdriver.git",
-     "version": "v6.0.0"
   },
   "web-events": {
     "dependencies": [
@@ -1828,6 +1840,17 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v2.0.0"
+  },
+  "webdriver": {
+    "dependencies": [
+      "aff",
+      "aff-promise",
+      "aff-reattempt",
+      "web-html",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/slamdata/purescript-webdriver.git",
+    "version": "v6.0.0"
   },
   "yargs": {
     "dependencies": [
