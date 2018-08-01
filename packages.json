@@ -330,6 +330,17 @@
     "repo": "https://github.com/sharkdp/purescript-decimals.git",
     "version": "v4.0.0"
   },
+  "density-codensity": {
+    "dependencies": [
+      "control",
+      "exists",
+      "tuples",
+      "newtype",
+      "transformers"
+    ],
+    "repo": "https://github.com/rightfold/purescript-density-codensity.git",
+    "version": "v1.0.2"
+  },
   "distributive": {
     "dependencies": [
       "identity",
