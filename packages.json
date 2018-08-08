@@ -927,7 +927,7 @@
       "either",
       "psci-support"
     ],
-    "repo": "https://github.com/snackycracky/modules-purescript.git",
+    "repo": "https://github.com/Dstoq/purescript-secure-password.git",
     "version": "0.1.1"
   },
   "newtype": {
