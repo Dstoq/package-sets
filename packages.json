@@ -909,6 +909,27 @@
     "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
     "version": "v5.0.0"
   },
+  "modules-purescript": {
+    "dependencies": [
+      "exceptions",
+      "nullable",
+      "tuples",
+      "ordered-collections",
+      "bigints",
+      "foldable-traversable",
+      "prelude",
+      "console",
+      "lists",
+      "numbers",
+      "integers",
+      "strings",
+      "spec",
+      "either",
+      "psci-support"
+    ],
+    "repo": "https://github.com/snackycracky/modules-purescript.git",
+    "version": "0.1.1"
+  },
   "newtype": {
     "dependencies": [
       "prelude"
