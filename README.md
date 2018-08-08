@@ -15,3 +15,8 @@ For each new snapshot create a git tag using following command (fish shell):
 set -lx tag "psc-0.12.0-"(date --utc +"%Y%m%d-%H%M"); git tag -a $tag -m $tag
 git push origin master --tags
 ```
+
+for zsh on OSX:
+```shell:zsh
+env -i tag=psc-0.12.0-$(date "+%Y%m%d-%H%M") sh -c 'git tag -a $tag -m $tag'
+```
