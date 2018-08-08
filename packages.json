@@ -909,7 +909,7 @@
     "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
     "version": "v5.0.0"
   },
-  "modules-purescript": {
+  "secure-password": {
     "dependencies": [
       "exceptions",
       "nullable",
