@@ -1272,7 +1272,7 @@
       "prelude"
     ],
     "repo": "https://github.com/Dstoq/preamble.git",
-    "version": "v0.1.2"
+    "version": "v0.1.3"
   },
   "prelude": {
     "dependencies": [],
